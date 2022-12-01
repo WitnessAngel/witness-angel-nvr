@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=Launch Witness Angel Recorder GUI
-Terminal=true
-Name=VideoTestimonyGUI
-Exec=/home/pi/.venv/bin/python /home/pi/witness-angel-recorder/main.py
-Type=Application
-Icon=/home/pi/witness-angel-recorder/src/warecorder/warecorder_desktop_icon_512x512.png
