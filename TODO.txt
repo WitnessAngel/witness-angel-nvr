@@ -1,0 +1,105 @@
+Renommer "common_runtime.py" en "app_common_runtime.py" ou similaire
+
+
+DOOONE AJOUTER config.read(str(self.config_defaults_path)) au service
+
+
+
+IMPORTANT - RAJOUTER PAGES AIDE
+
+RESTER SUR LE POPUP DE PASSPHRASE ENTRABLE SI ERREUR, dans decryption workflow
+
+
+TESTER bagotement quand le flux camera est cassé !!!
+
+URGENT NORMALISER PASSPHRASE EN ENTREE !!!!!   BOF
+
+AJOUTER toast quand on bute le service de fond de tâche
+
+Change authenticator key for EACH CRYPTAINER?
+
+PURGER les conteneurs non finalisés aussi!!!
+
+
+REFRESH la page en cas de changement de langage sur Recorder homepage!!  (done??)
+
+CRASH sur tooltips remis sur parent
+ Traceback (most recent call last):
+   File "main.py", line 5, in <module>
+     launch_app_or_service_with_crash_handler("wa_authenticator_gui", client_type="APPLICATION")
+   File "P:\Workspace\witness-angel-components\src\wacomponents\launcher.py", line 17, in launch_app_or_service_with_crash_handler
+     module.main()
+   File "P:\Workspace\witness-angel-authenticator\wa_authenticator_gui.py", line 98, in main
+     WaAuthenticatorApp().run()
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\app.py", line 950, in run
+     runTouchApp()
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+     EventLoop.mainloop()
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\base.py", line 347, in mainloop
+     self.idle()
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\base.py", line 387, in idle
+     Clock.tick()
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\clock.py", line 733, in tick
+     self.post_idle(ts, self.idle())
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\clock.py", line 776, in post_idle
+     self._process_events()
+   File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+   File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+   File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+   File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivymd\uix\tooltip.py", line 238, in display_tooltip
+     Window.add_widget(self._tooltip)
+   File "P:\Workspace\.virtualenvs\wakeygen\lib\site-packages\kivy\core\window\__init__.py", line 1305, in add_widget
+     raise WidgetException(
+ kivy.uix.widget.WidgetException: Cannot add <kivymd.uix.tooltip.MDTooltipViewClass object at 0x000001B18554F510> to window, it already has a parent <kivy.core.window.window_sdl2.WindowSDL object at 0x000001B1FC0A0580>
+
+
+
+le refresh de la page DECRYPTION ne marche pas si changement dans les keyguardians (???)
+
+
+REPARER TELENIUM
+
+
+BUILDER EN EXE LE Recorder POUR PC
+
+
+
+---------
+
+Tester rafraichissement du "decryption process" si le cryptainer est détruit entretemps! !!!
+
+documenter timedatectl pour FORCER refresh NTP !!
+
+
+AJOUTER nom du device dans settings, pour FUTURES METADATA!!!!!!!!
+
+Obsolete ?
+- changer nomenclature
+- mettre logs dans un fichier
+- piger pourquoi plantage du chiffrement
+
+IMPORTANT - SELECT-ALL/DESELECT-ALL dans CONTAINERS!!!
+
+FORCER à > 1 les settings INTEGER
+
+
+
+PASSER EN DHCP - https://superuser.com/questions/1238698/get-all-the-ip-addresses-given-out-by-dhcp-server-with-dnsmasq-and-hostapd
+
+
+
+
+
+DONE
+==============================================
+
+récupérer la vidéo par le "stdout" du ffmpeg et non par les fichiers vu que ça marche bien en fait, permettre le lancement en CLI depuis le terminal sans interface graphique, régler l'heure de la cam' sans Internet (raspberry-pi peut faire serveur NTP s'il a une carte d'extension avec une horloge), et trouver un moyen simple de signaler périodiquement que tout est OK à l'opérateur (LED, buzzer...).  (done?)
+
+Add "latest container data size" on EPAPER screen !!! done
+
+
+URGENT supporter les erreurs d'accès aux foreign keystores dans le screen keystore management  done?
+
+Donner nom temporaire à container WIP !!  DONE
+

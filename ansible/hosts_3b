@@ -1,7 +1,7 @@
 all:
   hosts:
     pi:
-      ansible_host: 192.168.1.77
+      ansible_host: 192.168.1.41
   vars:
     ansible_user: pi
     ansible_password: raspberry
